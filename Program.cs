@@ -33,6 +33,5 @@ using (SqliteConnection connection = new SqliteConnection(connectionString))
                     Console.WriteLine($"ID: {reader["id"]}, Nombre: {reader["nombre"]}, Precio: {reader["precio"]}");
                 }
             }
-
             connection.Close();
 }
